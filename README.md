@@ -27,10 +27,10 @@ Necesitas [Node.js](https://nodejs.org/) 20.19 o superior (recomendado 22).
    ```
 2. Crea un archivo llamado **`.env.local`** en la carpeta del proyecto con la conexión a la base de datos (ver la sección [Base de datos](#base-de-datos-supabase)):
    ```
-   VITE_SUPABASE_URL=https://wmlumlenmcondozipzoh.supabase.co
-   VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_c0WJG3KDJjpKRn7ahVx_WA_fxgHH_Wi
+   VITE_SUPABASE_URL=la-url-del-proyecto-de-supabase
+   VITE_SUPABASE_PUBLISHABLE_KEY=la-clave-publica-sb_publishable_...
    ```
-   Este archivo no se sube a GitHub, por eso hay que crearlo a mano. La clave es la **pública**: se puede compartir. Nunca pongas aquí la clave secreta (`sb_secret_...`).
+   Este archivo no se sube a GitHub, por eso hay que crearlo a mano. Los dos datos están en Supabase, en el botón **Connect**; pídeselos al equipo. Usa la clave **pública** (`sb_publishable_...`), nunca la secreta (`sb_secret_...`).
 3. Instala y arranca:
    ```bash
    npm install
