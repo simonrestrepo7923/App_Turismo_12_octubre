@@ -1,0 +1,24 @@
+{
+  "name": "Ruta Doce de Octubre",
+  "short_name": "Ruta 12",
+  "description": "Recorridos culturales, memorias vivas y cartografía comunitaria por el barrio Doce de Octubre, Comuna 6 de Medellín.",
+  "id": "./",
+  "start_url": "./#/inicio",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6fbf5",
+  "theme_color": "#012d1d",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "categories": ["travel", "education", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Mapa del barrio", "url": "./#/mapa", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Explorar recorridos", "url": "./#/explorar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
